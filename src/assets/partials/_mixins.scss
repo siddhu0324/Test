@@ -1,0 +1,8 @@
+@mixin text($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+@mixin round($radius) {
+  border-radius: $radius;
+}

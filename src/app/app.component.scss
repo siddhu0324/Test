@@ -1,0 +1,10 @@
+@import '/src/assets/partials/mixins';
+
+.logo {
+  @include text(100px, red);
+}
+
+.bg-color {
+  background-color: #000;
+  @include round(20px);
+}
